@@ -1,9 +1,35 @@
-html, body {
-
+html,
+body {
 }
 
 /*
   ========================================
-
+  Nav
   ========================================
 */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 7.5rem;
+  background-color: #1f2937;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #f9fAf8;
+}
+
+.links {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+  font-size: 1.125rem;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
