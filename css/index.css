@@ -1,6 +1,9 @@
 html,
 body {
+  
 }
+
+
 
 /*
   ========================================
@@ -12,13 +15,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 7.5rem;
+  padding: 0 7rem;
   background-color: #1f2937;
 }
 
 .logo {
   font-size: 2rem;
-  color: #f9fAf8;
+  color: #f9faf8;
 }
 
 .links {
@@ -32,4 +35,75 @@ body {
 a {
   text-decoration: none;
   color: #e5e7eb;
+}
+
+/*
+  ========================================
+  Header
+  ========================================
+*/
+
+.header {
+  display: flex;
+  align-items: center;
+  /* align-items: flex-start; */
+  /* justify-content: center; */
+  padding: 7rem;
+  background-color: #1f2937;
+}
+
+.right {
+  margin-right: 5rem;
+}
+
+h1 {
+  margin: 0;
+  color: #f9faf8;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.header p {
+  color: #f9faf8;
+}
+
+.header .right {
+  /* flex: 1; */
+}
+
+.left {
+  /* align-self: start; */
+}
+
+.btn {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: none;
+  padding: 0.5em 1.5em;
+  border-radius: 0.25em;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+}
+
+/*
+  ========================================
+  Section One
+  ========================================
+*/
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 2rem;
+}
+
+h2 {
+  text-align: center;
 }
