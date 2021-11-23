@@ -1,9 +1,6 @@
 html,
 body {
-  
 }
-
-
 
 /*
   ========================================
@@ -96,14 +93,77 @@ img {
   ========================================
 */
 
+.section-one {
+  margin: 3rem 2rem;
+}
+
 .container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 1rem;
-  margin: 0 2rem;
+  /* margin: 0 2rem; */
 }
 
 h2 {
   text-align: center;
+  margin-bottom: 3rem;
 }
+
+/*
+  ========================================
+  Section Two
+  ========================================
+*/
+
+.section-two {
+  background-color: rgb(223, 223, 223);
+  padding: 4rem;
+}
+
+.section-two p {
+  text-align: left;
+  /* margin: 5rem 7rem; */
+  /* padding: 5rem 7rem; */
+}
+
+blockquote {
+  text-align: right;
+  font-weight: bold;
+  /* padding-right: .25rem; */
+}
+
+/*
+  ========================================
+  Section Three
+  ========================================
+*/
+
+.section-three {
+  padding: 5rem 9rem;
+}
+
+.container-section-three {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3882f6;
+}
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+
+.footer {
+  text-align: center;
+  background-color: #1f2937;
+  padding: 0.125rem 0;
+}
+
+.footer p {
+  color: #f9faf8;
+}
+
+
